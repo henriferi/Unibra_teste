@@ -25,8 +25,8 @@ class EventController extends Controller
     }
 
     public function dashboard () {
-        $unibra_usuarios = Unibra_usuarios::where('nome_completo', 'Henrique')->first();
-
+        $unibra_usuarios = Unibra_usuarios::all('nome_completo')->first();
+        
         return view('dashboard')->with('unibra_usuarios', $unibra_usuarios);
     } 
 

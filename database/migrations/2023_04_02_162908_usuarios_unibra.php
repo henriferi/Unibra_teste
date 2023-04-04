@@ -9,6 +9,9 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
+        /* Função para criar as tabelas no banco de dados */
+
     public function up(): void
     {
         Schema::create('unibra_usuarios', function (Blueprint $table) {

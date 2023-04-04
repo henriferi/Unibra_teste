@@ -6,9 +6,6 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class Validacoes extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     */
     public function authorize(): bool
     {
         return true;
@@ -21,6 +18,7 @@ class Validacoes extends FormRequest
      */
 
 
+     
     // Validações dos formulários e adaptação dos textos para português
 
     public function rules(): array

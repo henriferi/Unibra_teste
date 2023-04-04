@@ -9,10 +9,11 @@
     <form class="form" action="/events" method="POST">
 
         @csrf
-        <!-- Validar os campos e retornar as mensagens de erros necessárias -->
 
         <h2>RECUPERAR SENHA</h2>
         <span>Informe abaixo seu CPF e Senha para recuperar sua senha,<br/>enviaremos um link para o email cadastrado.</span>
+
+        <!-- Validar os campos e retornar as mensagens de erros necessárias -->
 
         @if ($errors->has('cpf',))
             <ul class="errors">               

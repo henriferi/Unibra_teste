@@ -18,7 +18,7 @@
         <h2>DASHBOARD</h2>
         <span>Parabéns você está logado no sistema de testes</span>
 
-        <h2>Olá,  *Usuário seja bem vindo(a) de volta!</h2>
+        <h2>Olá, {{ $unibra_usuarios->nome_completo }} seja bem vindo(a) de volta!</h2>
 
             <button type="submit"><a class="link-redefinir-senha" href="/redefinirSenha">Mudar senha</a></button>
 
