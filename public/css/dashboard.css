@@ -1,0 +1,22 @@
+.dashboard-barra {
+    background-color: rgb(3, 201, 3);
+    height: 0.6rem;
+    border-radius: 10px;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.link-redefinir-senha {
+    text-decoration: none;
+    color: white;
+}
+
+.form-dashboard {
+    max-width: 300px;
+    width: 30%;
+    text-align: center;
+}
+
+#link-sair-dashboard {
+    color: red;
+}
